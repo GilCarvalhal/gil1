@@ -9,6 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <!-- JS -->
     <script src="./scripts/script.js" defer></script>
     <!-- FONTS -->
@@ -20,64 +21,72 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <ul>
+    <header>
+        <nav>
+            <div>
+                <ul class="ancors">
                     <li>
-                        <a href="https://gilcarvalhal.github.io/gil/index.html" target="_self">Início</a>
+                        <a class="page1" href="https://gilcarvalhal.github.io/gil/index.html" target="_self">Início</a>
                     </li>
                     <li>
-                        <a href="https://gilcarvalhal.github.io/gil/formacao.html" target="_self">Formação</a>
+                        <a class="page2" href="https://gilcarvalhal.github.io/gil/formacao.html"
+                            target="_self">Formação</a>
                     </li>
                     <li>
-                        <a href="https://gilcarvalhal.github.io/gil/habilidade.html" target="_self">Habilidades</a>
+                        <a class="page3" href="https://gilcarvalhal.github.io/gil/habilidade.html"
+                            target="_self">Habilidades</a>
                     </li>
                     <li>
-                        <a href="https://gilcarvalhal.github.io/gil/projeto.html" target="_self">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/gilberto-carvalhal/" target="_blank"
-                            rel="noopener noreferrer">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/GilCarvalhal" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-square-github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/gilcarvalhal1/" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-square-instagram"></i>
-                        </a>
+                        <a class="page4" href="https://gilcarvalhal.github.io/gil/projeto.html"
+                            target="_self">Projetos</a>
                     </li>
                 </ul>
-            </nav>
-        </header>
+            </div>
+            <ul class="icons">
+                <li>
+                    <a class="icon icon--linkedin" href="https://www.linkedin.com/in/gilberto-carvalhal/"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="icon icon--github" href="https://github.com/GilCarvalhal" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="icon icon--instagram" href="https://www.instagram.com/gilcarvalhal1/" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
+    <section class="container">
         <main>
-            <aside>
-                <img src="" alt="Gil">
-                <h1>Gil Carvalhal</h1>
-                <h2>Desenvolvedor FullStack</h2>
-                <div>
-                    <img src="" alt="pilares da criacao">
-                </div>
-                <article>
-                    <h2>Sobre mim:</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis porro dolor harum quia
-                        eveniet
-                        mollitia sequi aliquid repellat rerum optio atque excepturi neque iusto perferendis corporis,
-                        repellendus hic veniam fuga.</p>
-                </article>
-            </aside>
+            <h1 class="h1">Gil Carvalhal</h1>
+            <h2 class="h2">Desenvolvedor FullStack</h2>
+            <img src="" alt="Gil">
+            <div>
+                <img src="" alt="pilares da criacao">
+            </div>
+            <article>
+                <h2>Sobre mim:</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis porro dolor
+                    harum quia
+                    eveniet
+                    mollitia sequi aliquid repellat rerum optio atque excepturi neque iusto perferendis corporis,
+                    repellendus hic veniam fuga.</p>
+            </article>
         </main>
 
         <footer>
             <span>&copy; Gilberto Carvalhal, 2023 - Todos os direitos reservados.</span>
         </footer>
-    </div>
+    </section>
 </body>
 
 </html>
