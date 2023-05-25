@@ -31,7 +31,7 @@
 .profile {
   width: 22rem;
   height: 22rem;
-  margin: 3.3rem;
+  margin: 2rem;
   padding: 1.5rem;
   border-radius: 35% 20%;
   outline: 3px solid #242424;
@@ -52,6 +52,7 @@
 .text {
   display: inline-block;
   text-align: left;
+  font-size: medium;
   line-height: 25px;
   padding: 35px 35px 15px 35px;
   margin: 0px;
