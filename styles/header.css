@@ -107,17 +107,3 @@ a {
   animation: shake 0.07s;
   border-color: #1b1b1b;
 }
-
-.h1,
-.h2 {
-  display: flex;
-
-  background: linear-gradient(to right, #7df17d, #11cc11, #014701);
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  color: transparent;
-
-  font-size: larger;
-  font-weight: bolder;
-  padding: 0.5rem;
-}
