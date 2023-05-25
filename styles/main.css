@@ -17,6 +17,10 @@
   padding: 0.5rem;
   margin: 2rem 0rem 3rem 2.5rem;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background: linear-gradient(to right, #7df17d, #ddd5d5, #2d332d);
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -27,17 +31,46 @@
 .profile {
   width: 22rem;
   height: 22rem;
-  margin: 1rem 2rem 1.5rem 2.5rem;
+  margin: 3.3rem;
   padding: 1.5rem;
-  border-radius: 50%;
+  border-radius: 35% 20%;
   outline: 3px solid #242424;
 
   cursor: pointer;
   filter: grayscale(0.3);
   transition: 0.3s;
+  display: inline-block;
 }
 
 .profile:hover {
   border: 1px solid #242424;
   filter: grayscale(0);
+}
+
+/* ======= TEXT ======= */
+.h2,
+.text {
+  display: inline-block;
+  text-align: left;
+  line-height: 25px;
+  padding: 35px 35px 15px 35px;
+  margin: 0px;
+
+  width: 470px;
+
+  background: linear-gradient(to right, #7df17d, #ddd5d5, #89f189);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.h2 {
+  margin: 30px 0px 0px 0px;
+}
+
+.profile,
+.h2,
+.text {
+  display: inline-block;
+  float: left;
 }
