@@ -42,7 +42,7 @@
   transition: 0.3s;
   display: inline-block;
   
-  background-image: url("/img/gil-1.jpeg");
+  background-image: url("img/gil-1.jpeg");
   background: no-repeat;
 }
 
