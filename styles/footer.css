@@ -1,0 +1,17 @@
+.footer-list {
+  height: 10px;
+  width: 5px;
+
+  padding: 0px 3px 30px 3px;
+}
+
+footer {
+  height: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(to right, #100f10, #242424, #100f10);
+  color: #fff;
+}

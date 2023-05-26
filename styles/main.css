@@ -35,13 +35,13 @@
   padding: 1.5rem;
   border-radius: 50% 35%;
   outline: 3px #242424;
-  
+
   outline-offset: 15px;
   cursor: pointer;
   filter: grayscale(0.3);
   transition: 0.3s;
   display: inline-block;
-  
+
   background-image: url("img/gil-1.jpeg");
   background: no-repeat;
 }
