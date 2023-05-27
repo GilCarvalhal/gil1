@@ -1,16 +1,64 @@
+/* ======= BADGES ======= */
 .footer-list {
-  height: 10px;
-  width: 5px;
+  width: 100%;
+  height: 3rem;
 
-  padding: 0px 3px 30px 3px;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(to right, #100f10, #242424, #100f10);
 }
 
-footer {
+.badge-1,
+.badge-2,
+.badge-3,
+.badge-4,
+.badge-5,
+.badge-6,
+.badge-7,
+.badge-8,
+.badge-9,
+.badge-10 {
+  width: 4.5rem;
+  height: 1.8rem;
+
+  justify-content: space-between;
+
+  text-align: center;
+  border-radius: 8px;
+
+  cursor: pointer;
+  filter: grayscale(1);
+  transition: 0.3s linear;
+  display: inline-block;
+}
+
+.badge-1:hover,
+.badge-2:hover,
+.badge-3:hover,
+.badge-4:hover,
+.badge-5:hover,
+.badge-6:hover,
+.badge-7:hover,
+.badge-8:hover,
+.badge-9:hover,
+.badge-10:hover {
+  border: 1px solid;
+  filter: grayscale(0);
+}
+
+/* ======= FOOTER ======= */
+span {
+  width: 100%;
   height: 2rem;
+  padding: 0px;
+  margin: 0px;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  font-size: smaller;
 
   background: linear-gradient(to right, #100f10, #242424, #100f10);
   color: #fff;
