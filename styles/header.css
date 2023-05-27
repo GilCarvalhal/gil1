@@ -46,20 +46,6 @@
   background-color: #000;
   outline-color: #fff;
 }
-@keyframes shake {
-  10% {
-    transform: rotate(15deg);
-  }
-  20% {
-    transform: rotate(-15deg);
-  }
-  30% {
-    transform: rotate(15deg);
-  }
-  40% {
-    transform: rotate(-15deg);
-  }
-}
 
 /* ======= BANNER ======= */
 header {
@@ -93,8 +79,6 @@ a {
 .page3,
 .page4 {
   border: 2px solid #fff;
-  padding: 0.5rem;
-  margin: 0.5rem;
 
   padding: 1rem;
   margin: 2rem;
@@ -106,4 +90,19 @@ a {
 .page4:hover {
   animation: shake 0.07s;
   border-color: #1b1b1b;
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
 }
