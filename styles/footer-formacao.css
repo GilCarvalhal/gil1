@@ -1,0 +1,15 @@
+span {
+  width: 100%;
+  height: 2rem;
+  padding: 0px;
+  margin: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: smaller;
+
+  background: linear-gradient(to right, #100f10, #100f10);
+  color: #fff;
+}

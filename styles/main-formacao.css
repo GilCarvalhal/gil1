@@ -5,9 +5,12 @@ html {
   min-height: 100vh;
   width: 100%;
 
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
+
+  margin: 0;
+  padding: 0;
 
   color: #fff;
   background: linear-gradient(to right, #100f10, #242424, #100f10);
