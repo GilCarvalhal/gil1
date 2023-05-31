@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+
+  color: #fff;
+  background: linear-gradient(to right, #100f10, #242424, #100f10);
+}
+
+.badge {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 20px;
+}
+
+.badge-1,
+.badge-2,
+.badge-3,
+.badge-4,
+.badge-5,
+.badge-6,
+.badge-7,
+.badge-8,
+.badge-9,
+.badge-10 {
+  border-radius: 8px;
+}
