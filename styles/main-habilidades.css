@@ -26,5 +26,6 @@ html {
 .badge-8,
 .badge-9,
 .badge-10 {
+  width: 7rem;
   border-radius: 8px;
 }

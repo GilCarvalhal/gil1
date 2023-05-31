@@ -1,3 +1,7 @@
+nav {
+  background: linear-gradient(to left, #363636, #242424, #100f10);
+}
+
 /* ======= BANNER ======= */
 .ancors {
   width: 100vw;
@@ -10,8 +14,6 @@
 
   margin: 0;
   padding: 0;
-
-  background: linear-gradient(to left, #363636, #242424, #100f10);
 }
 
 /* ======= BUTTONS ======= */
@@ -36,6 +38,7 @@ a {
   padding: 1rem;
   margin: 2rem;
 }
+
 .page1:hover,
 .page2:hover,
 .page3:hover,
