@@ -60,6 +60,7 @@ span {
   position: absolute;
   font-size: smaller;
 
-  background: linear-gradient(to right, #100f10, #242424, #100f10);
+  background-color: #100f10;
+
   color: #fff;
 }

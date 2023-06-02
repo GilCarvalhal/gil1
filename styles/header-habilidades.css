@@ -8,8 +8,9 @@ header {
 
 /* ======= BANNER ======= */
 .ancors {
-  width: 100vw;
   height: 30vh;
+
+  margin: 180px 0px 0px 0px;
 
   display: flex;
   justify-content: center;
@@ -40,7 +41,6 @@ a {
   margin: 2rem;
 }
 
-
 .page1:hover,
 .page2:hover,
 .page3:hover,
@@ -48,7 +48,6 @@ a {
   animation: shake 0.07s;
   border-color: #1b1b1b;
 }
-
 
 @keyframes shake {
   10% {
