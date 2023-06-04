@@ -60,8 +60,10 @@ a {
   display: block;
   line-height: 30px;
   margin: 15px;
-  color: #fff;
+
   border-radius: 5px 10px;
+  color: #fff;
+
   text-decoration: none;
   text-align: center;
   font-weight: bold;
