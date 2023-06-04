@@ -15,6 +15,13 @@ html {
   background: linear-gradient(to right, #100f10, #242424, #100f10);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 100%;
+}
+
 /* ======= TITLE ======= */
 .h1 {
   font-size: 1.3rem;
