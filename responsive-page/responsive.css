@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+  ul.ancors-index {
+    margin: 30px 0px 30px 0px;
+  }
+
+  ul.ancors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  ul.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img.profile {
+    margin: 3.5rem;
+  }
+
+  h1.h1 {
+    margin: 50px 0px 0px 0px;
+  }
+}
