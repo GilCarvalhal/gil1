@@ -25,3 +25,46 @@
     margin: 50px 0px 0px 0px;
   }
 }
+
+@media (min-width: 992px) {
+  ul.ancors-index {
+    margin: 150px 0px 0px 0px;
+  }
+
+  img.profile {
+    margin: 0px 0px 0px 30px;
+  }
+
+  ul.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .a-01,
+  .a-02,
+  .a-03,
+  .a-04,
+  .a-05,
+  .a-06,
+  .a-07,
+  .a-08,
+  .a-09,
+  .a-10 {
+    margin: 12px;
+  }
+
+  h2.h2 {
+    padding: 30px 30px 30px 35px;
+  }
+
+  p.text {
+    padding: 10px 10px 10px 35px;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
