@@ -59,6 +59,7 @@ header {
 a {
   display: block;
   line-height: 30px;
+
   margin: 15px;
 
   border-radius: 5px 10px;
@@ -70,12 +71,12 @@ a {
   font-family: Arial;
 }
 
-.ancors-index {
+#--ancors-index {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  margin: 180px 0px 0px 0px;
+  margin: 120px 0px 0px 0px;
 }
 
 .page1,

@@ -1,31 +1,30 @@
+/* ========== 1200 ========== */
 @media (min-width: 1200px) {
-  ul.ancors-index {
-    margin: 30px 0px 30px 0px;
-  }
-
-  ul.ancors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: 0;
-  }
-
-  ul.footer-list {
+  #pg1,
+  #pg2,
+  #pg3,
+  #pg4 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  img.profile {
+  .footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile {
     margin: 3.5rem;
   }
 
-  h1.h1 {
-    margin: 50px 0px 0px 0px;
+  .h1 {
+    margin: 50px 0px 0px 20px;
   }
 }
 
+/* ========== 992 ========== */
 @media (min-width: 992px) {
   ul.ancors-index {
     margin: 150px 0px 0px 0px;
@@ -66,5 +65,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+/* ========== 768 ========== */
+@media (max-width: 768px) {
+  #ancors-index {
+    margin: 180px 0px 0px 0px;
+  }
+
+  #profile {
+    width: 17rem;
+    height: 17rem;
+
+    margin: 100px 0px 200px 10px;
+    padding: 0;
+  }
+
+  #h2,
+  #text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+    padding: 0;
+
+    font-size: 0.9rem;
+  }
+
+  #h2 {
+    display: flex;
+    justify-content: left;
+    margin: 100px 0px 25px 0px;
+  }
+
+  #text {
+    margin: 0px 0px 200px 0px;
+  }
+
+  #footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #a1,
+  #a2,
+  #a3,
+  #a4,
+  #a5,
+  #a6,
+  #a7,
+  #a8,
+  #a9,
+  #a-10 {
+    margin: 2px;
   }
 }

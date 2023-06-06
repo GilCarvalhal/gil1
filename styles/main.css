@@ -43,8 +43,10 @@ body {
 .profile {
   width: 22rem;
   height: 22rem;
+  
   margin: 2rem;
-  padding: 1.5rem;
+  padding: 1rem;
+  
   border-radius: 50% 35%;
 
   outline-offset: 15px;
@@ -70,9 +72,6 @@ body {
   text-align: left;
   font-size: medium;
   line-height: 25px;
-  padding: 35px 35px 15px 35px;
-  margin: 0px;
-
   width: 470px;
 
   background: linear-gradient(to right, #7df17d, #ddd5d5, #89f189);
@@ -83,6 +82,10 @@ body {
 
 .h2 {
   margin: 30px 0px 0px 0px;
+}
+
+.text {
+  margin: 0px 0px 100px 0px ;
 }
 
 .profile,
