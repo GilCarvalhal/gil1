@@ -219,4 +219,112 @@
     align-items: center;
     font-size: smaller;
   }
+
+  /* ========== 320px ========== */
+  @media (max-width: 320px) {
+    #ancors {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #__ancors {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #page1,
+    #page2,
+    #page3,
+    #page4 {
+      margin: 2px;
+      font-size: 9px;
+    }
+
+    #pg1,
+    #pg2,
+    #pg3,
+    #pg4 {
+      margin: 5px;
+      font-size: 8px;
+    }
+
+    #h1 {
+      margin: 20px;
+    }
+
+    #profile {
+      width: 10rem;
+      height: 10rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 10px 80px;
+    }
+
+    #h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: small;
+
+      margin: 20px 80px;
+    }
+
+    #text {
+      flex-direction: column;
+      justify-content: space-between;
+      width: 20rem;
+    }
+
+    #footer-list {
+      height: 1rem;
+    }
+
+    #badge {
+      margin: 0;
+      padding: 0;
+    }
+
+    #badge-1,
+    #badge-2,
+    #badge-3,
+    #badge-4,
+    #badge-5,
+    #badge-6,
+    #badge-7,
+    #badge-8,
+    #badge-9,
+    #badge-10 {
+      width: 1.9rem;
+      height: 1.1rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    #a1,
+    #a2,
+    #a3,
+    #a4,
+    #a5,
+    #a6,
+    #a7,
+    #a8,
+    #a9,
+    #a-10 {
+      margin: 0.5px;
+    }
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      font-size: xx-small;
+    }
+  }
 }
