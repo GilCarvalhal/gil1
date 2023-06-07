@@ -148,7 +148,7 @@
   #pg2,
   #pg3,
   #pg4 {
-    margin: 70px 15px 15px 15px;
+    margin: 15px;
   }
 
   #h1 {
@@ -181,7 +181,7 @@
     align-items: flex-start;
     float: right;
 
-    margin: 0px 0px 200px 0px;
+    margin: 0px;
   }
 
   #badge-1,
