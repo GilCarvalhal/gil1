@@ -184,6 +184,10 @@
     margin: 0;
   }
 
+  #footer {
+    position: absolute;
+  }
+
   #badge-1,
   #badge-2,
   #badge-3,
