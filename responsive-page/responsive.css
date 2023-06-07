@@ -1,5 +1,5 @@
 /* ========== 1200px ========== */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   #pg1,
   #pg2,
   #pg3,
