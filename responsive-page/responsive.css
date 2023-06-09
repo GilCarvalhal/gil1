@@ -70,15 +70,19 @@
 
 /* ========== 768px ========== */
 @media (max-width: 768px) {
-  #ancors-index {
-    margin: 180px 0px 0px 0px;
+  #--ancors-index {
+    margin: 200px 0px 0px 0px;
+  }
+
+  #h1 {
+    margin: 20px 0px 0px 0px;
   }
 
   #profile {
     width: 17rem;
     height: 17rem;
 
-    margin: 100px 0px 200px 10px;
+    margin: 30px 0px 200px 10px;
     padding: 0;
   }
 
@@ -97,11 +101,11 @@
   #h2 {
     display: flex;
     justify-content: left;
-    margin: 100px 0px 25px 0px;
+    margin: 30px 0px 25px 0px;
   }
 
   #text {
-    margin: 0px 0px 200px 0px;
+    margin: 0px 0px 0px 0px;
   }
 
   #footer-list {
@@ -218,6 +222,115 @@
     justify-content: center;
     align-items: center;
     font-size: smaller;
+  }
+
+  /* ========== Iphone XR (414px) ========== */
+  @media (max-width: 414px) {
+    #ancors {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 0px;
+    }
+
+    #__ancors {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 0;
+    }
+
+    #page1,
+    #page2,
+    #page3,
+    #page4 {
+      margin: 5px;
+      font-size: 12px;
+    }
+
+    #pg1,
+    #pg2,
+    #pg3,
+    #pg4 {
+      margin: 5px;
+      font-size: 10px;
+    }
+
+    #h1 {
+      margin: 30px;
+    }
+
+    #profile {
+      width: 13rem;
+      height: 13rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 10px 100px;
+    }
+
+    #h2 {
+      font-size: 0.8rem;
+    }
+
+    #text {
+      font-size: 0.8rem;
+      padding: 0px 20px 0px 0px;
+    }
+
+    #footer-list {
+      height: 1rem;
+    }
+
+    #badge {
+      margin: 0;
+      padding: 0;
+    }
+
+    #badge-1,
+    #badge-2,
+    #badge-3,
+    #badge-4,
+    #badge-5,
+    #badge-6,
+    #badge-7,
+    #badge-8,
+    #badge-9,
+    #badge-10 {
+      width: 2.4rem;
+      height: 1.2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    #a1,
+    #a2,
+    #a3,
+    #a4,
+    #a5,
+    #a6,
+    #a7,
+    #a8,
+    #a9,
+    #a-10 {
+      margin: 0.7px;
+    }
+
+    #footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* position: absolute; */
+      margin: 140px 0px 0px 0px;
+    }
+
+    span {
+      font-size: x-small;
+    }
   }
 
   /* ========== 393px (pixel 5) ========== */
