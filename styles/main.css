@@ -27,7 +27,7 @@ body {
   font-size: 1.3rem;
   font-weight: bolder;
   padding: 0.5rem;
-  margin: 2rem 0rem 3rem 2.5rem;
+  margin: 3rem 0rem 3rem 2.5rem;
 
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@ body {
   width: 22rem;
   height: 22rem;
 
-  margin: 2rem;
+  margin: 1rem 2rem 2.5rem 2.5rem;
   padding: 1rem;
 
   border-radius: 50% 35%;
@@ -81,11 +81,11 @@ body {
 }
 
 .h2 {
-  margin: 30px 0px 0px 0px;
+  margin: 30px 0px 10px 50px;
 }
 
 .text {
-  margin: 0px 0px 100px 0px;
+  margin: 10px 0px 100px 50px;
 }
 
 .profile,
